@@ -1,4 +1,3 @@
-```
 # 🎬 Find Movie
 
 <div align="center">
@@ -114,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-</div>```
+</div>
