@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(180deg, #000000 0%, #3A2C0F 50%, #CFAF4E 100%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    outline: 0;
+}
+button {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+h1 {
+    padding: 50px 0 20px;
+    font-size: 60px;
+}
+#findMovie {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+input {
+    font-size: 20px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(126, 126, 126, 0.116);
+    color: white;
+    padding: 0 15px;
+    text-align: center;
+    width: 350px;
+}
+#yIn {
+    width: 150px;
+}
+#findMovie input:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: gold;
+}
+#findMovie button {
+    background-color: rgba(126, 126, 126, 0.116);
+    transition: all 0.3s ease;
+
+}
+#findMovie button:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+    color: gold;
+}
+#movieInfo {
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0px;
+}
+#movieInfo{
+    display: flex;
+    justify-content: space-between;
+}
+#info{
+    width: 700px;
+}
+.data-item{
+    display: flex;
+    justify-content: start;
+    padding: 5px 10px;
+    font-size: 25px;
+    background: rgba(126, 126, 126, 0.116);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.data-item div{
+    margin-right: 10px;
+}
+#data-error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 25px;
+    background: rgba(255, 2, 2, 0.178);
+    margin: auto;
+}
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Movie</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1> Find Movie </h1>  
+        <div id="findMovie">
+            <input type="text" id="nameIn" placeholder="Title" maxlength="35">
+            <input type="text" id="yIn" placeholder="Year" maxlength="4" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+            <button id="findBtn">Find</button>
+            <button id="resBtn">Reset</button>
+        </div>
+        <div id="movieInfo">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
